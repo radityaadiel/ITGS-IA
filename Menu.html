@@ -1,123 +1,7 @@
 <html>
 
 <head>
-    <style>
-        body {
-            font-family: latha;
-            color: white;
-            background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0)), url(Cherrys\ cake\ front\ view.pdf) no-repeat;
-            background-size: cover;
-
-
-        }
-
-        .box {
-            width: 900px;
-            float: right;
-            border: 1px solid none;
-        }
-
-        .box ul li {
-            width: 120px;
-            float: left;
-            margin: 10px auto;
-            text-align: center;
-        }
-
-        .box ul li a {
-            text-decoration: none;
-            color: darkgray;
-        }
-
-        .box ul li:hover {
-            background-color: red;
-        }
-
-        .box ul li a:hover {
-            color: white;
-        }
-
-        .wd {
-            width: 300px;
-            height: 539px;
-            background-color: black;
-            opacity: 0.9;
-            padding: 55px;
-        }
-
-        .wd h1 {
-            text-align: center;
-            text-transform: uppercase;
-            font-weight: 100px;
-        }
-
-        .wd h4 {
-            text-align: justify;
-            color: white;
-            font-weight: normal;
-
-        }
-
-        .wd h2 {
-            text-align: center;
-            text-transform: uppercase;
-            font-weight: normal;
-            margin: auto;
-        }
-
-
-        .opt form,
-        input[type="button"] {
-            background-color: black;
-            color: white;
-            padding: 10px;
-            margin: -14px auto;
-            padding-left: 50px;
-            padding-right: 50px;
-            text-align: center;
-        }
-
-        form,
-        input [type="button"] :hover {
-            background-color: green;
-        }
-
-        .fe {
-            position: absolute;
-            right: 50px;
-            top: 80px;
-            background-color: black;
-            padding: 120px;
-            height: 337px;
-            width: 600px;
-            opacity: 0.9;
-        }
-
-        .fe h1 {
-            text-align: center;
-            text-transform: uppercase;
-            font-weight: 100px;
-        }
-
-        .img-responsive{
-            width: 100%;
-            max-width: 220px;
-            height: auto;
-            border-radius: 3%;
-
-        }
-
-        .fe h2 {
-            text-align: center;
-            font-size: 20px;
-
-        }
-
-        td {
-            padding: 0.5em;
-
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -155,25 +39,21 @@
 
     </div>
 
-    <div class=" wd">
-
+    <div class="wd">
         <h1> Welcome!</h1>
-
+    
         <h4> Cherry’s cake was established in approximately 11 years ago, which is in 2011. Since then, Cherry’s cake
             has evolved and produce some delicious, unique and various cake, it offer birthday cake, traditional cake
             and others.</h4>
-
+    
         <h2> Order</h2>
-        <div class="opt">
-
-
-
+        <div class="opt" style="margin-bottom: 3em;">
+            <form action="./Contact_us.html" method="post">
+                <input type="submit" value="Order Now">
             </form>
         </div>
-
-
-
-
+    
+        <img class="img-responsive center" src="./Images/Cherry's cake.jpg">
     </div>
 </body>
 
