@@ -80,7 +80,7 @@ input[type="submit"] {
     background-color: black;
     padding: 120px;
     height: 337px;
-    width: 600px;
+    width: 50%;
     opacity: 0.9;
     overflow: auto;
 }
